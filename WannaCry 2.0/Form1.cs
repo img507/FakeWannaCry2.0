@@ -25,14 +25,14 @@ namespace WannaCry_2._0
         private Timer timer1;
         private Timer timer2;
 
-        private readonly Font _customFont;
+        private readonly Font customFont;
 
         public Form1()
         {
             InitializeComponent();
 
             Text = "Wana Decrypt0r 2.0";
-            _customFont = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold);
+            customFont = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold);
 
             Shown += Form1_Shown;
 
